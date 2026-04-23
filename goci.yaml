@@ -3,7 +3,7 @@ stages:
   - test
 build-job:
   stage: build
-  script: 
-  - npm install
-  - npm run build
+  script: |
+    npm install
+    npm run build
   image: node
